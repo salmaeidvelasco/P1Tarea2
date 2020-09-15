@@ -19,7 +19,7 @@ namespace admEidTarea2.Models
         [StringLength(30)]
         public string FirstMidName { get; set; }
 
-
+        [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString ="{0:dd:MM:yyyy)",ApplyFormatInEditMode =true)]
         public DateTime EnrollmentDate { get; set; }
 
